@@ -1,11 +1,12 @@
 #include<stdio.h>
 int main(){
 
-    float a,b,c;
-    a = 10;
-    b = 3;
-    c = a / b;
+    int intNunber= 369;
+    float floatNumber = 59.558;
+    char charter = 'L';
 
-    printf("this float number is : %f\n",c );
+    printf("this float number is : %d\n\n",intNunber );
+    printf("this float number is : %f\n\n",floatNumber );
+    printf("this float number is : %c\n\n",charter );
     return 0 ;
 };
